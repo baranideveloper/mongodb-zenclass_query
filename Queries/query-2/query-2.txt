@@ -1,0 +1,55 @@
+2.Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020?
+
+Ans:
+
+zenclass> db.company_drives.find({drivedate:{$gt:new Date('2020-10-15'),$lte: new Date("2020-10-31")}});
+[
+  {
+    _id: ObjectId('65fbfd8dae593865a79a9165'),
+    userid: 3,
+    drivedate: ISODate('2020-10-17T00:00:00.000Z'),
+    companyname: 'TCS'
+  },
+  {
+    _id: ObjectId('65fbfdc3ae593865a79a9166'),
+    userid: 4,
+    drivedate: ISODate('2020-10-18T00:00:00.000Z'),
+    companyname: 'WIPRO'
+  },
+  {
+    _id: ObjectId('65fbfdd9ae593865a79a9167'),
+    userid: 5,
+    drivedate: ISODate('2020-10-19T00:00:00.000Z'),
+    companyname: 'GOOGLE'
+  },
+  {
+    _id: ObjectId('65fbfdf9ae593865a79a9168'),
+    userid: 6,
+    drivedate: ISODate('2020-10-20T00:00:00.000Z'),
+    companyname: 'APPLE'
+  },
+  {
+    _id: ObjectId('65fbfe10ae593865a79a9169'),
+    userid: 7,
+    drivedate: ISODate('2020-10-23T00:00:00.000Z'),
+    companyname: 'Accenture'
+  },
+  {
+    _id: ObjectId('65fbfe32ae593865a79a916a'),
+    userid: 8,
+    drivedate: ISODate('2020-10-28T00:00:00.000Z'),
+    companyname: 'TechMahindra'
+  },
+  {
+    _id: ObjectId('65fbfe4dae593865a79a916b'),
+    userid: 9,
+    drivedate: ISODate('2020-10-29T00:00:00.000Z'),
+    companyname: 'FACEBOOK'
+  },
+  {
+    _id: ObjectId('65fbfe6aae593865a79a916c'),
+    userid: 10,
+    drivedate: ISODate('2020-10-29T00:00:00.000Z'),
+    companyname: 'Cognizant'
+  }
+]

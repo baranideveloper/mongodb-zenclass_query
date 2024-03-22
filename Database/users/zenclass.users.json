@@ -1,0 +1,150 @@
+[{
+  "_id": {
+    "$oid": "65f92200eaaa38c39c2ced75"
+  },
+  "name": "raja",
+  "email": "raja@gamil.com",
+  "batch": "B52WDT",
+  "course": "FSD",
+  "userid": 1
+},
+{
+  "_id": {
+    "$oid": "65f92200eaaa38c39c2ced76"
+  },
+  "name": "ravi",
+  "email": "ravi@gmail.com",
+  "batch": "B52WDT",
+  "course": "FSD",
+  "userid": 2
+},
+{
+  "_id": {
+    "$oid": "65f92200eaaa38c39c2ced77"
+  },
+  "name": "kumar",
+  "email": "kumar@gamil.com",
+  "batch": "B52WDT",
+  "course": "FSD",
+  "userid": 3
+},
+{
+  "_id": {
+    "$oid": "65f92200eaaa38c39c2ced78"
+  },
+  "name": "sanjay",
+  "email": "sanjay@gmail.com",
+  "batch": "T11WD",
+  "course": "Testing",
+  "userid": 4
+},
+{
+  "_id": {
+    "$oid": "65f92200eaaa38c39c2ced79"
+  },
+  "name": "stuart",
+  "email": "stuart@gamil.com",
+  "batch": "B52WDT",
+  "course": "FSD",
+  "userid": 5
+},
+{
+  "_id": {
+    "$oid": "65f92200eaaa38c39c2ced7a"
+  },
+  "name": "andrews",
+  "email": "andrews@gmail.com",
+  "batch": "AI12WDT",
+  "course": "AI",
+  "userid": 6
+},
+{
+  "_id": {
+    "$oid": "65f92200eaaa38c39c2ced7b"
+  },
+  "name": "kevin",
+  "email": "kevin@gamil.com",
+  "batch": "B52WDT",
+  "course": "FSD",
+  "userid": 7
+},
+{
+  "_id": {
+    "$oid": "65f92200eaaa38c39c2ced7c"
+  },
+  "name": "ben",
+  "email": "ben@gmail.com",
+  "batch": "MSWD",
+  "course": "MernStack",
+  "userid": 8
+},
+{
+  "_id": {
+    "$oid": "65f92200eaaa38c39c2ced7d"
+  },
+  "name": "sandy",
+  "email": "sandy@gamil.com",
+  "batch": "B52WDT",
+  "course": "FSD",
+  "userid": 9
+},
+{
+  "_id": {
+    "$oid": "65f92200eaaa38c39c2ced7e"
+  },
+  "name": "mark",
+  "email": "mark@gmail.com",
+  "batch": "B52WDT",
+  "course": "FSD",
+  "userid": 10
+},
+{
+  "_id": {
+    "$oid": "65f92200eaaa38c39c2ced7f"
+  },
+  "name": "elon",
+  "email": "elon@gamil.com",
+  "batch": "D11WD",
+  "course": "DataScience",
+  "userid": 11
+},
+{
+  "_id": {
+    "$oid": "65f92200eaaa38c39c2ced80"
+  },
+  "name": "clara",
+  "email": "clara@gmail.com",
+  "batch": "B52WDT",
+  "course": "FSD",
+  "userid": 12
+},
+{
+  "_id": {
+    "$oid": "65f92200eaaa38c39c2ced81"
+  },
+  "name": "jerry",
+  "email": "jerry@gamil.com",
+  "batch": "AWS6WD",
+  "course": "AWS",
+  "userid": 13
+},
+{
+  "_id": {
+    "$oid": "65f92200eaaa38c39c2ced82"
+  },
+  "name": "julee",
+  "email": "julee@gmail.com",
+  "batch": "B52WDT",
+  "course": "FSD",
+  "userid": 14
+},
+{
+  "_id": {
+    "$oid": "65f92200eaaa38c39c2ced83"
+  },
+  "name": "sandra",
+  "email": "sandra@gmail.com",
+  "batch": "B52WDT",
+  "course": "FSD",
+  "userid": 15
+}]

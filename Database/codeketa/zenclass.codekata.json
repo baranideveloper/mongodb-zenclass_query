@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "65f93e86eaaa38c39c2cedaf"
+  },
+  "codeketa_id": 1,
+  "problem_solved": 2,
+  "problem_pending": 6,
+  "userid": 1
+},
+{
+  "_id": {
+    "$oid": "65f93e86eaaa38c39c2cedb0"
+  },
+  "codeketa_id": 2,
+  "problem_solved": 6,
+  "problem_pending": 6,
+  "userid": 2
+},
+{
+  "_id": {
+    "$oid": "65f93e86eaaa38c39c2cedb1"
+  },
+  "codeketa_id": 3,
+  "problem_solved": 3,
+  "problem_pending": 5,
+  "userid": 3
+},
+{
+  "_id": {
+    "$oid": "65f93e86eaaa38c39c2cedb2"
+  },
+  "codeketa_id": 4,
+  "problem_solved": 7,
+  "problem_pending": 6,
+  "userid": 4
+},
+{
+  "_id": {
+    "$oid": "65f93e86eaaa38c39c2cedb3"
+  },
+  "codeketa_id": 5,
+  "problem_solved": 4,
+  "problem_pending": 6,
+  "userid": 5
+},
+{
+  "_id": {
+    "$oid": "65f93e86eaaa38c39c2cedb4"
+  },
+  "codeketa_id": 6,
+  "problem_solved": 7,
+  "problem_pending": 4,
+  "userid": 6
+},
+{
+  "_id": {
+    "$oid": "65f93e86eaaa38c39c2cedb5"
+  },
+  "codeketa_id": 7,
+  "problem_solved": 3,
+  "problem_pending": 8,
+  "userid": 7
+},
+{
+  "_id": {
+    "$oid": "65f93e86eaaa38c39c2cedb6"
+  },
+  "codeketa_id": 8,
+  "problem_solved": 5,
+  "problem_pending": 8,
+  "userid": 8
+},
+{
+  "_id": {
+    "$oid": "65f93e86eaaa38c39c2cedb7"
+  },
+  "codeketa_id": 9,
+  "problem_solved": 6,
+  "problem_pending": 7,
+  "userid": 9
+},
+{
+  "_id": {
+    "$oid": "65f93e86eaaa38c39c2cedb8"
+  },
+  "codeketa_id": 10,
+  "problem_solved": 5,
+  "problem_pending": 3,
+  "userid": 10
+},
+{
+  "_id": {
+    "$oid": "65f93e86eaaa38c39c2cedb9"
+  },
+  "codeketa_id": 11,
+  "problem_solved": 6,
+  "problem_pending": 9,
+  "userid": 11
+},
+{
+  "_id": {
+    "$oid": "65f93e86eaaa38c39c2cedba"
+  },
+  "codeketa_id": 12,
+  "problem_solved": 12,
+  "problem_pending": 1,
+  "userid": 12
+},
+{
+  "_id": {
+    "$oid": "65f93e86eaaa38c39c2cedbb"
+  },
+  "codeketa_id": 13,
+  "problem_solved": 2,
+  "problem_pending": 6,
+  "userid": 13
+},
+{
+  "_id": {
+    "$oid": "65f93e86eaaa38c39c2cedbc"
+  },
+  "codeketa_id": 14,
+  "problem_solved": 6,
+  "problem_pending": 6,
+  "userid": 14
+},
+{
+  "_id": {
+    "$oid": "65f93e86eaaa38c39c2cedbd"
+  },
+  "codeketa_id": 15,
+  "problem_solved": 3,
+  "problem_pending": 5,
+  "userid": 15
+}]

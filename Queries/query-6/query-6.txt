@@ -1,0 +1,42 @@
+6.Find the number of users who are absent and task is not submitted between 15 oct-2020 and 31-oct-2020.?
+
+Answer:
+
+db.attendence.aggregate([
+{
+$lookup: {
+from: “topics”,
+localField: “topicid”,
+foreignField: “topicid”,
+as: “topics”,
+},
+},
+{
+$lookup: {
+from: “tasks”,
+localField: “topicid”,
+foreignField: “topicid”,
+as: “tasks”,
+},
+},
+{ $match: { $and: [{ staus: false }, { “tasks.submitted”: false }] } },
+{
+$match: {
+$and: [
+{
+$or: [
+{ “topics.topicDate”: { $gte: new Date(“2020–10–15”) , $lte: new Date(“2020–10–31”) } }
+],
+},
+{
+$or: [
+{ “tasks.task_date”: { $gte: new Date(“2020–10–15”) , $lte: new Date(“2020–10–31”) } },
+],
+},
+],
+},
+},
+{
+$count:”Absentees”,
+},
+])

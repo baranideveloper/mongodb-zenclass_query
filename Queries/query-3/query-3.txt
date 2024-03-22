@@ -1,0 +1,24 @@
+3.Find all the company drives and students who are appeared for the placement.?
+
+Answer:
+
+db.companydrives.aggregate([
+{
+$lookup: {
+from: “users”,
+localField: “userid”,
+foreignField: “userid”,
+as: “info”,
+},
+},
+{
+$project: {
+_id: 0,
+company: 1,
+drive_date: 1,
+“info.name”: 1,
+“info.email”: 1,
+“info.userid”: 1,
+},
+},
+])

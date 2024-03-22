@@ -1,0 +1,22 @@
+4.Find the number of problems solved by the user in codekata.?
+
+Answer:
+
+db.codekata.aggregate([
+{
+$lookup: {
+from: “users”,
+localField: “userid”,
+foreignField: “userid”,
+as: “info”,
+},
+},
+{
+$project: {
+_id: 0,
+userid: 1,
+solved_problems: 1,
+“info.name”: 1,
+},
+},
+])

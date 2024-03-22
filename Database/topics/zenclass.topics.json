@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "65f97ffab4dac7ca28faa9fa"
+  },
+  "topicid": 1,
+  "topic_name": "Node",
+  "topic_date": {
+    "$date": "2020-10-13T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f97ffab4dac7ca28faa9fb"
+  },
+  "topic_name": "React",
+  "topic_date": {
+    "$date": "2020-10-14T00:00:00.000Z"
+  },
+  "topicid": 2
+},
+{
+  "_id": {
+    "$oid": "65f97ffab4dac7ca28faa9fc"
+  },
+  "topicid": 3,
+  "topic_name": "Bootstrap",
+  "topic_date": {
+    "$date": "2020-10-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f97ffab4dac7ca28faa9fd"
+  },
+  "topicid": 4,
+  "topic_name": "MongoDB",
+  "topic_date": {
+    "$date": "2020-10-16T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f97ffab4dac7ca28faa9fe"
+  },
+  "topicid": 5,
+  "topic_name": "MYSQL",
+  "topic_date": {
+    "$date": "2020-10-17T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f97ffab4dac7ca28faa9ff"
+  },
+  "topicid": 6,
+  "topic_name": "React-Redux",
+  "topic_date": {
+    "$date": "2020-10-18T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f97ffab4dac7ca28faaa00"
+  },
+  "topicid": 7,
+  "topic_name": "HTML",
+  "topic_date": {
+    "$date": "2020-10-19T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f97ffab4dac7ca28faaa01"
+  },
+  "topicid": 8,
+  "topic_name": "CSS",
+  "topic_date": {
+    "$date": "2020-10-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f97ffab4dac7ca28faaa02"
+  },
+  "topicid": 9,
+  "topic_name": "JAVA",
+  "topic_date": {
+    "$date": "2020-10-21T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f97ffab4dac7ca28faaa03"
+  },
+  "topicid": 10,
+  "topic_name": "Data-Structure",
+  "topic_date": {
+    "$date": "2020-10-22T00:00:00.000Z"
+  }
+}]
